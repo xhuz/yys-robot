@@ -1,0 +1,19 @@
+{
+  "name": "yys-auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "huz",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ts.dll": "^1.0.3"
+  },
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.6.3"
+  }
+}
