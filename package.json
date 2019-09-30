@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "cross-env NODE_ENV=development node --experimental-worker --require ts-node/register src/app/app.ts",
+    "compile": "tsc"
   },
   "author": "huz",
   "license": "Apache-2.0",
@@ -11,6 +13,8 @@
     "ts.dll": "^1.0.3"
   },
   "devDependencies": {
+    "@types/node": "^12.7.8",
+    "cross-env": "^6.0.0",
     "ts-node": "^8.4.1",
     "tslint": "^5.20.0",
     "tslint-config-standard": "^8.0.1",

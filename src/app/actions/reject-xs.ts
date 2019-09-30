@@ -1,5 +1,5 @@
 import TSPlug from 'ts.dll';
 
-export function team(ts: TSPlug[]) {
+export function rejectXs(ts: TSPlug) {
   console.log(ts);
 }
