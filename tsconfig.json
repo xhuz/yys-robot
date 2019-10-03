@@ -5,8 +5,7 @@
     "module": "commonjs",
     "target": "es2017",
     "outDir": "./dist",
-    "declaration": true,
-    "declarationDir": "./@types"
+    "noImplicitAny": false
   },
   "include": ["src/**/*.ts"]
 }

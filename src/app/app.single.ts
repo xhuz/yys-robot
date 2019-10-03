@@ -1,16 +1,15 @@
 /*
  * @Author: huz
- * @Date: 2019-09-25 22:46:57
- * @LastEditTime: 2019-10-03 17:58:58
+ * @Date: 2019-10-03 23:50:56
+ * @LastEditTime: 2019-10-03 23:53:15
  */
-
 import {findWindow} from './actions/find-window';
 import {Mode} from './interfaces/interfaces';
 import {shared} from './config/shared';
 import {single} from './mode/single.mode';
 import {team} from './mode/team.mode';
 
-start(Mode.Team);
+start();
 
 export function start(mode: Mode = Mode.Single) {
   const windowHandles = findWindow(shared.original);

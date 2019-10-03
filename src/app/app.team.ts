@@ -1,9 +1,8 @@
 /*
  * @Author: huz
- * @Date: 2019-09-25 22:46:57
- * @LastEditTime: 2019-10-03 17:58:58
+ * @Date: 2019-10-03 23:51:25
+ * @LastEditTime: 2019-10-03 23:55:56
  */
-
 import {findWindow} from './actions/find-window';
 import {Mode} from './interfaces/interfaces';
 import {shared} from './config/shared';
