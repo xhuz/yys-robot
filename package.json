@@ -20,5 +20,14 @@
     "tslint": "^5.20.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.6.3"
-  }
+  },
+  "keywords": [
+    "yys",
+    "阴阳师",
+    "yuhun",
+    "御魂",
+    "yys-auto",
+    "挂机",
+    "yys-robot"
+  ]
 }

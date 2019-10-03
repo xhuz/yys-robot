@@ -1,7 +1,7 @@
 <!--
  * @Author: huz
  * @Date: 2019-10-02 19:04:19
- * @LastEditTime: 2019-10-04 00:48:14
+ * @LastEditTime: 2019-10-04 01:00:25
  -->
 # yys-robot
 网易阴阳师自动挂机脚本
@@ -10,6 +10,7 @@
 
 仅支持32位版本的nodejs
 需要先安装node-gyp和windows-build-tools
+需要将阴阳师桌面版分辨率调整为480*852
 ```
 npm install -g windows-build-tools
 npm install -g node-gyp
